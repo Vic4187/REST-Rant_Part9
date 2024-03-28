@@ -2,14 +2,6 @@ const React = require('react')
 const Def = require('../default')
 
 function show (data) {
-    let message = ''
-    if (data.message) {
-        message = (
-            <h4 className= "alert-danger">
-                {data.message}
-            </h4>
-        )
-    }
     return (
         <Def>
           <main>
